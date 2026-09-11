@@ -100,9 +100,9 @@ Si la pesée du princeps (J1) donne 23,75 mg au lieu de 25,0 mg, le porteur seul
 
 ### 4.3 Procédé (grandeurs transposables ; point central du DSD)
 1. **PI** : prémélange GLY-Br + 5 % MgSt au Turbula 2 h **[H]** (brevet : 5 h), puis broyeur à jets d'air, gaz sec, alimentation régulière ; campagne ≥ 20 g de GLY + 1 g MgSt ; conditionnement 24 h en sachet antistatique (Rzewińska 2025 pour la pratique). Contrôles § 4.2.
-2. **Prétraitement du porteur** : ML001 297,1 g + MgSt externe 0,382 g, chargés en 2 couches (MgSt entre) dans une cuve 1 L, remplissage 30–40 % ; **vitesse périphérique 4 m/s, 2 min**, hacheur arrêté, 20–25 °C / 30–45 % HR ; enregistrer couple/température.
+2. **Prétraitement du porteur** : ML001 297,1 g + MgSt externe 0,382 g, chargés en 2 couches (MgSt entre) dans une cuve 1 L, remplissage 30–40 % ; **vitesse périphérique 11 m/s (2500 tr/min sur turbine 85 mm), 2 min**, hacheur arrêté, 20–25 °C / 30–45 % HR ; enregistrer couple/température.
 3. **Ajout des actifs** : arrêt ; PI (0,788 g) et IND (1,710 g) déposés en sandwich entre deux portions de porteur prétraité ; réconciliation des pertes de transfert (> 99 %).
-4. **Mélange final** : **vitesse périphérique 2,4 m/s, 3 min** ; température du lit < 30 °C.
+4. **Mélange final** : **vitesse périphérique 6,7 m/s (1500 tr/min sur 85 mm), 3 min** ; température du lit < 30 °C.
 5. **Repos** 30 min en récipient antistatique fermé ; tamisage doux 250 µm **uniquement si** des agglomérats > 250 µm sont observés et sans rejet non dosé.
 6. **Remplissage** 25,00 mg nets, doseur à faible compaction, 100 % pesée ; 200 gélules minimum par lot pour la caractérisation.
 7. **Équilibrage** : trois bras — scellage immédiat, 24 h et 72 h à 22 °C / 40 % HR — puis blister PA/Alu/PVC-Alu.

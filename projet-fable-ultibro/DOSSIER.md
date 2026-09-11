@@ -175,9 +175,9 @@ Le point de [S-3] (GEA 1 L, 2500 tr/min, turbine ≈ 85 mm [H]) correspond à un
 |---|---|---|---|
 | Désagglomération du lactose | Tamis 250 µm ou broyeur conique doux | — | Contrôler la PSD avant/après (pas d'attrition) |
 | Chargement | Lactose en 2 couches, MgSt entre les couches | Taux de remplissage 30–40 % de la cuve | Constant à l'échelle |
-| Prétraitement | Vitesse périphérique 4 m/s [H, facteur C : 2–6 m/s] ; 2 min | Hacheur arrêté | Vitesse périphérique constante |
+| Prétraitement | Vitesse périphérique 11 m/s (= 2500 tr/min sur turbine 85 mm [H], point publié [S-3]) ; facteur C : 7–15 m/s ; 2 min | Hacheur arrêté | Vitesse périphérique constante |
 | Ajout des actifs | Arrêt ; actifs déposés en sandwich entre deux portions de porteur prétraité ; pertes de transfert réconciliées | — | — |
-| Mélange final | Vitesse périphérique 2,4 m/s ; 3 min [facteur D : 1–5 min] | Température du lit < 30 °C | Révolutions × taux de remplissage |
+| Mélange final | Vitesse périphérique 6,7 m/s (= 1500 tr/min sur 85 mm) ; 3 min [facteur D : 1–5 min] | Température du lit < 30 °C | Révolutions × taux de remplissage |
 | Repos / dé-électrisation | 30 min en récipient antistatique fermé, HR 35–45 % | — | — |
 | Remplissage | Doseur à vide/tambour, compaction minimale ; 25,0 mg ± 3 % | Poids net 100 % contrôlé | — |
 | Équilibrage | 24 h et 72 h à 22 °C / 40 % HR [H, à comparer à un témoin scellé immédiatement] | — | — |
@@ -223,8 +223,8 @@ Plan de Jones-Nachtsheim construit sur la matrice de conférence C6 : 12 sommets
 |---|---|---|---|
 | A · lactose micronisé ajouté | 0 % | 4 % | 8 % |
 | B · MgSt total | 0,08 % | 0,14 % | 0,20 % |
-| C · vitesse périphérique du prétraitement (2 min) | 2 m/s | 4 m/s | 6 m/s |
-| D · durée du mélange final (2,4 m/s) | 1 min | 3 min | 5 min |
+| C · vitesse périphérique du prétraitement (2 min) | 7 m/s | 11 m/s | 15 m/s |
+| D · durée du mélange final (6,7 m/s) | 1 min | 3 min | 5 min |
 | E · d90 du lot de GLY | 3,5 µm | 5,0 µm (mélange 50/50) | 6,5 µm |
 | F · fraction de porteur broyé (ML001-type) dans le porteur, complément tamisé (SV003-type) | 0 % | 50 % | 100 % |
 

@@ -1,0 +1,13 @@
+Fiche de pesée FB2 — lot théorique 300.0 g — R&D in vitro uniquement, aucune administration humaine
+Composant;Masse cible (g);Tolérance (g);Min (g);Max (g);Base de calcul;Masse pesée;Balance / opérateur / heure
+Maléate d'indacatérol micronisé;1.73464;±0.00867;1.72597;1.74332;titre sel tel quel 98.60 %;;
+PI (GLY-Br + MgSt co-micronisé);0.79089;±0.00395;0.78694;0.79485;"GLY-Br 94.90 % ; MgSt 4.90 % du PI";;
+MgSt externe (LIGAMED MF-2-V-BI);0.38125;±0.00381;0.37743;0.38506;MgSt total 0.42000 g = 0.14 %;;
+Respitose ML001 (porteur broyé);297.09322;±2.97093;294.12229;300.06415;100 % du porteur;;
+
+Contrôle;Valeur;Attendu
+Unités théoriques;12000;12 000 pour 300 g
+IND base µg/gélule;110.000;110,000
+GLY base µg/gélule;50.000;50,000
+MgSt total %;0.1400;0,1400
+Total g;300.00000;300.00000

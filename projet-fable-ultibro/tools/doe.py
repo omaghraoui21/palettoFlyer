@@ -41,8 +41,8 @@ FACTORS = {
     # nom: (bas, centre, haut, unité)
     "A_fines_pct": (0.0, 4.0, 8.0, "% lactose micronisé ajouté"),
     "B_mgst_pct": (0.08, 0.14, 0.20, "% MgSt total"),
-    "C_precoat_tip_speed": (2.0, 4.0, 6.0, "m/s, vitesse périphérique, 2 min"),
-    "D_final_blend_time": (1.0, 3.0, 5.0, "min à vitesse périphérique 2.4 m/s"),
+    "C_precoat_tip_speed": (7.0, 11.0, 15.0, "m/s, vitesse périphérique, 2 min (centre = 2500 rpm sur turbine 85 mm, Rzewinska 2025)"),
+    "D_final_blend_time": (1.0, 3.0, 5.0, "min à vitesse périphérique 6.7 m/s (1500 rpm sur 85 mm)"),
     "E_gly_d90": (3.5, 5.0, 6.5, "µm, d90 du lot de GLY (2 lots + mélange 50/50)"),
     "F_carrier_milled_pct": (0, 50, 100, "% de porteur broyé (ML001-type) dans le porteur, complément tamisé (SV003-type)"),
 }
