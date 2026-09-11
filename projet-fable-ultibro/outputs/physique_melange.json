@@ -1,0 +1,67 @@
+{
+  "molar_masses": {
+    "IND": 392.499,
+    "IND_maleate": 508.571,
+    "GLY": 318.43699999999995,
+    "GLY_bromide": 398.34099999999995,
+    "lactose_anhydrous": 342.297,
+    "lactose_monohydrate": 360.312
+  },
+  "salt_factors": {
+    "IND": 1.2957255942053356,
+    "GLY": 1.2509256147997878
+  },
+  "salt_per_unit_ug": {
+    "IND_maleate": 142.52981536258693,
+    "GLY_bromide": 62.54628073998939
+  },
+  "lactose_per_unit_mg_FB1": {
+    "monohydrate": 24.759923903897423,
+    "anhydrous_equivalent": 23.52196893950903
+  },
+  "coverage": {
+    "carrier_surface_m2_per_unit": 0.004019468166217115,
+    "coverage_pct": {
+      "indacaterol_maleate": 2.0457616836819112,
+      "glycopyrronium_bromide": 0.8644908308140987,
+      "magnesium_stearate_total": 0.2073242774597261
+    },
+    "coverage_pct_total": 3.117576791955736,
+    "carrier_particles_per_unit": 142159.60605643768,
+    "ind_particles_per_carrier_particle": 184.11855153137208,
+    "gly_particles_per_carrier_particle": 77.8041747732689
+  },
+  "mixing_cv": {
+    "cv_random_pct_ind_primary_2um": 0.01954623516397197,
+    "cv_random_pct_gly_primary_2um": 0.030068408650107688,
+    "cv_random_pct_gly_agglomerates_30um": 1.164544459488261,
+    "cv_random_pct_gly_agglomerates_100um": 7.087191885326464,
+    "cv_random_pct_mgst_primary_6um": 0.18419880743036796
+  },
+  "assumptions": {
+    "carrier": {
+      "name": "lactose porteur broyé",
+      "d50_um": 60,
+      "true_density_g_cm3": 1.54,
+      "shape_factor": 2.5
+    },
+    "ind": {
+      "name": "IND maléate micronisé",
+      "d50_um": 2.0,
+      "true_density_g_cm3": 1.3,
+      "shape_factor": 1.0
+    },
+    "gly": {
+      "name": "GLY bromure micronisé",
+      "d50_um": 2.0,
+      "true_density_g_cm3": 1.35,
+      "shape_factor": 1.0
+    },
+    "mgst": {
+      "name": "MgSt",
+      "d50_um": 6.0,
+      "true_density_g_cm3": 1.05,
+      "shape_factor": 1.0
+    }
+  }
+}

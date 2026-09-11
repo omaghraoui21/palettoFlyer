@@ -1,0 +1,17 @@
+ordre;essai;type;A_fines_pct;B_mgst_pct;C_precoat_tip_speed;D_final_blend_time;E_gly_d90;A_fines_pct_code;B_mgst_pct_code;C_precoat_tip_speed_code;D_final_blend_time_code;E_gly_d90_code
+1;D14;centre;4.0;0.14;4.0;3.0;5.0;0;0;0;0;0
+2;D01;sommet;4.0;0.2;6.0;5.0;6.5;0;1;1;1;1
+3;D10;sommet;0.0;0.2;6.0;1.0;5.0;-1;1;1;-1;0
+4;D03;sommet;8.0;0.14;6.0;1.0;3.5;1;0;1;-1;-1
+5;D12;sommet;0.0;0.08;6.0;5.0;3.5;-1;-1;1;1;-1
+6;D05;sommet;8.0;0.2;4.0;5.0;3.5;1;1;0;1;-1
+7;D08;sommet;0.0;0.2;2.0;3.0;3.5;-1;1;-1;0;-1
+8;D15;centre;4.0;0.14;4.0;3.0;5.0;0;0;0;0;0
+9;D07;sommet;8.0;0.08;6.0;3.0;6.5;1;-1;1;0;1
+10;D04;sommet;0.0;0.14;2.0;5.0;6.5;-1;0;-1;1;1
+11;D11;sommet;8.0;0.2;2.0;1.0;6.5;1;1;-1;-1;1
+12;D09;sommet;8.0;0.08;2.0;5.0;5.0;1;-1;-1;1;0
+13;D06;sommet;0.0;0.08;4.0;1.0;6.5;-1;-1;0;-1;1
+14;D02;sommet;4.0;0.08;2.0;1.0;3.5;0;-1;-1;-1;-1
+15;D13;centre;4.0;0.14;4.0;3.0;5.0;0;0;0;0;0
+#;Facteurs;A_fines_pct: 0.0 / 4.0 / 8.0 (% lactose micronisé ajouté);B_mgst_pct: 0.08 / 0.14 / 0.2 (% MgSt total);C_precoat_tip_speed: 2.0 / 4.0 / 6.0 (m/s, vitesse périphérique, 2 min);D_final_blend_time: 1.0 / 3.0 / 5.0 (min à vitesse périphérique 2.4 m/s);E_gly_d90: 3.5 / 5.0 / 6.5 (µm, d90 du lot de GLY (2 lots + mélange 50/50))

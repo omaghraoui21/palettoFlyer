@@ -1,0 +1,4 @@
+cas;tip_speed_m_s;froude;mass_g;revolutions;specific_energy_index
+1 L, 2500 rpm, 2 min;11.1;297;195;5e+03;198
+5 L, 2500 rpm (même rpm);19.6;524;975;5e+03;676
+5 L, 1417 rpm (même vitesse périphérique);11.1;168;975;2.83e+03;123

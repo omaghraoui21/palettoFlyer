@@ -1,0 +1,28 @@
+Formule;Composant;mg/unite;g/lot_300g
+FB-1 (référence interne);indacaterol_maleate;0.142530;1.71036
+FB-1 (référence interne);glycopyrronium_bromide;0.062546;0.75056
+FB-1 (référence interne);magnesium_stearate_total;0.035000;0.42000
+FB-1 (référence interne);lactose_fines_added;0.000000;0.00000
+FB-1 (référence interne);lactose_carrier;24.759924;297.11909
+FB-1 (référence interne);total;25.000000;300.00000
+FB-1-PI (GLY co-micronisé 5 % MgSt);indacaterol_maleate;0.142530;1.71036
+FB-1-PI (GLY co-micronisé 5 % MgSt);glycopyrronium_bromide;0.062546;0.75056
+FB-1-PI (GLY co-micronisé 5 % MgSt);magnesium_stearate_total;0.035000;0.42000
+FB-1-PI (GLY co-micronisé 5 % MgSt);lactose_fines_added;0.000000;0.00000
+FB-1-PI (GLY co-micronisé 5 % MgSt);lactose_carrier;24.759924;297.11909
+FB-1-PI (GLY co-micronisé 5 % MgSt);total;25.000000;300.00000
+FB-1-PI (GLY co-micronisé 5 % MgSt);pi_glycopyrronium_mgst;0.065674;0.78808
+FB-1-PI (GLY co-micronisé 5 % MgSt);mgst_in_pi;0.003127;0.03753
+FB-1-PI (GLY co-micronisé 5 % MgSt);mgst_external;0.031873;0.38247
+FB-1b (remplissage 23.75 mg, hypothèse lactose déclaré en monohydrate);indacaterol_maleate;0.142530;1.80038
+FB-1b (remplissage 23.75 mg, hypothèse lactose déclaré en monohydrate);glycopyrronium_bromide;0.062546;0.79006
+FB-1b (remplissage 23.75 mg, hypothèse lactose déclaré en monohydrate);magnesium_stearate_total;0.033250;0.42000
+FB-1b (remplissage 23.75 mg, hypothèse lactose déclaré en monohydrate);lactose_fines_added;0.000000;0.00000
+FB-1b (remplissage 23.75 mg, hypothèse lactose déclaré en monohydrate);lactose_carrier;23.511674;296.98957
+FB-1b (remplissage 23.75 mg, hypothèse lactose déclaré en monohydrate);total;23.750000;300.00000
+FB-1 corrigée CoA (IND 98.2 %, GLY 99.1 %);indacaterol_maleate;0.145142;1.74171
+FB-1 corrigée CoA (IND 98.2 %, GLY 99.1 %);glycopyrronium_bromide;0.063114;0.75737
+FB-1 corrigée CoA (IND 98.2 %, GLY 99.1 %);magnesium_stearate_total;0.035000;0.42000
+FB-1 corrigée CoA (IND 98.2 %, GLY 99.1 %);lactose_fines_added;0.000000;0.00000
+FB-1 corrigée CoA (IND 98.2 %, GLY 99.1 %);lactose_carrier;24.756743;297.08092
+FB-1 corrigée CoA (IND 98.2 %, GLY 99.1 %);total;25.000000;300.00000
