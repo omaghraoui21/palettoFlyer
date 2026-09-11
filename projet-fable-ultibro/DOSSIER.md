@@ -147,8 +147,8 @@ Pourquoi **pas** de lactose fin dans la référence interne : Onbrez et Seebri s
 |---|---|---|
 | GLY bromure micronisé | d50 1,2–3,0 µm ; d90 3,6–6,5 µm ; **2 lots à d90 distincts** (facteur E) | PSD (3 pressions de dispersion), XRPD (forme A), eau, impuretés, surface spécifique, état d'agglomération |
 | IND maléate micronisé | d50 1,4–2,4 µm ; d90 2,7–5,0 µm | Idem + pureté chirale, fraction amorphe (DSC/DVS) |
-| Lactose porteur, grade inhalation | d50 45–80 µm ; d10 3–13 µm mesuré et documenté | PSD, fines < 10 µm, morphologie SEM, eau, densité, écoulement |
-| Lactose micronisé (fines ajoutées) | d50 3–5 µm | PSD, eau |
+| Lactose porteur, grade inhalation | Deux grades de d50 ≈ 50–60 µm : tamisé sans fines (x10 ≈ 35) et broyé à fines intrinsèques (x10 ≈ 5) — voir `lactose/RESULTATS.md` | PSD, % < 4,5 et < 15 µm, SSA, span, morphologie SEM, eau, amorphe (DVS), fraction β |
+| Lactose micronisé (fines ajoutées) | x50 ≈ 3 µm, x90 ≈ 9 µm (type Lactohale 300) ; fines ≥ 3 µm préférées aux ultrafines (Grasmeijer 2014) | PSD, eau, amorphe |
 | MgSt, grade inhalation (végétal) | d50 5–10 µm | PSD, surface spécifique, ratio stéarate/palmitate, hydratation (XRPD), impuretés |
 | Gélule HPMC taille 3 pour inhalation | Teneur en eau 4–6 % [H] | Masse, eau, perforation sur le dispositif cible |
 
@@ -216,7 +216,7 @@ Méthode LC de départ : RP C18, KH₂PO₄ 20 mM pH 3,5 / ACN-MeOH 9:1 en gradi
 ### Phase 0 — Méthodes et référence (semaines 1–8)
 Qualification DD/APSD/LC ; caractérisation de ≥ 5 lots de référence ; pesée du contenu ; FB-1 et FB-1-PI × 2 lots ; stabilité ouverte 4 semaines. **Sortie :** architecture (PI ou non), remplissage, résistance du dispositif candidat, estimation des CV inter-lot et intra-lot de la référence.
 
-### Phase 1 — Criblage définitif, 5 facteurs, 15 lots (semaines 9–20)
+### Phase 1 — Criblage définitif, 6 facteurs, 15 lots (semaines 9–20)
 Plan de Jones-Nachtsheim construit sur la matrice de conférence C6 : 12 sommets + 3 centres (`outputs/plan_dsd_15_lots.csv`, propriétés vérifiées : effets principaux orthogonaux entre eux et aux interactions d'ordre 2 ; 5 lots par niveau par facteur).
 
 | Facteur | − | 0 | + |
@@ -226,8 +226,11 @@ Plan de Jones-Nachtsheim construit sur la matrice de conférence C6 : 12 sommets
 | C · vitesse périphérique du prétraitement (2 min) | 2 m/s | 4 m/s | 6 m/s |
 | D · durée du mélange final (2,4 m/s) | 1 min | 3 min | 5 min |
 | E · d90 du lot de GLY | 3,5 µm | 5,0 µm (mélange 50/50) | 6,5 µm |
+| F · fraction de porteur broyé (ML001-type) dans le porteur, complément tamisé (SV003-type) | 0 % | 50 % | 100 % |
 
-Pourquoi ce plan plutôt qu'un factoriel 2⁴ complet à 19 lots : un facteur de plus (la PSD du GLY, dominante selon [S-3]) pour 4 lots de moins, la courbure estimable par facteur (les effets fines/MgSt sont attendus non monotones), et une projection directe vers un plan composite si 2–3 facteurs dominent. Le prix : les interactions d'ordre 2 sont partiellement confondues entre elles (pas avec les effets principaux) ; c'est acceptable en criblage.
+Le facteur F et le grade des fines proviennent de l'étude documentaire `lactose/RESULTATS.md` (prompt figé dans `lactose/PROMPT.md`) : deux porteurs de même d50 (~50–60 µm) mais contrastés sur d10, fines intrinsèques et rugosité, attributs identifiés comme causaux par Rzewińska 2025, Kinnunen 2014 et Bungert 2021.
+
+Pourquoi ce plan plutôt qu'un factoriel 2⁴ complet à 19 lots : deux facteurs de plus (la PSD du GLY, dominante selon [S-3], et le type de porteur) pour 4 lots de moins, la courbure estimable par facteur (les effets fines/MgSt sont attendus non monotones), et une projection directe vers un plan composite si 2–3 facteurs dominent. Le prix : les interactions d'ordre 2 sont partiellement confondues entre elles (pas avec les effets principaux) ; c'est acceptable en criblage.
 
 Réponses par lot : DD et FPD < 5 µm pour chaque actif à 30 et 90 L/min (3 NGI), rétention gélule + dispositif, RSD de DD, RSD de teneur, écoulement. **Réponse composite pré-spécifiée :** pire écart |ln(T/R)| parmi {DD, FPD} × {IND, GLY} × {30, 90 L/min} — à minimiser. Analyse : régression sur effets principaux + termes quadratiques, sélection par AICc, lot = unité expérimentale ; les centres donnent l'erreur pure et la dérive temporelle.
 

@@ -1,0 +1,12 @@
+Grade;Fournisseur;Type;x10_um;x50_um;x90_um;Source_PSD;S1_princeps;S2_fines_intrinseques;S3_dry_coating;S4_contraste;S5_disponibilite;Score_pondere_max14;Role_propose
+Respitose SV003;DFE Pharma;tamisé, tomahawk lisse;35;60;95;https://dfepharma.com/excipients/respitose-sv003/;2;0;1;2;2;11;Porteur A (tamisé, sans fines) — niveau F=0 %
+Respitose ML001;DFE Pharma;broyé, irrégulier, fines fixes;5;50;150;https://dfepharma.com/excipients/respitose-ml001/;2;2;2;2;2;14;Porteur B (broyé, fines intrinsèques) — niveau F=100 %
+Lactohale 200;DFE Pharma;broyé;10;70;140;https://dfepharma.com/excipients/lactohale-200/;1;1;2;1;2;9;Alternative à ML001 si d50 du princeps mesuré > 60 µm
+Lactohale 206;DFE Pharma;broyé;35;85;150;https://dfepharma.com/excipients/lactohale-206/;1;0;1;1;2;7;Écarté : peu de fines, d50 élevé
+InhaLac 251;Meggle;tamisé;15;52;92;https://www.meggle-excipients.com/products/inhalac-251;2;1;1;1;2;10;Second fournisseur possible du porteur A (mais x10 plus bas que SV003)
+InhaLac 230;Meggle;tamisé;49;96;144;https://www.meggle-excipients.com/products/inhalac-230;0;0;1;0;2;3;Écarté : trop grossier pour gélule/faible dose
+Respitose SV010;DFE Pharma;tamisé;45;110;175;https://dfepharma.com/excipients/respitose-sv010/;0;0;1;0;2;3;Écarté : trop grossier (Pinto 2021, Kinnunen 2014 : d50 ~50 µm favorable en gélule)
+Lactohale 100;DFE Pharma;tamisé;55;130;220;https://dfepharma.com/excipients/lactohale-100/;0;0;0;0;2;2;Écarté : porteur de réservoir, hors fenêtre
+Lactohale 300;DFE Pharma;micronisé (fines);n/a;3;9;https://dfepharma.com/excipients/lactohale-300/;n/a;2;n/a;2;2;—;Fines ajoutées (facteur A) — grade retenu
+InhaLac 400;Meggle;broyé fin (fines);n/a;8;n/a;https://www.meggle-excipients.com/products/inhalac-400;n/a;1;n/a;1;2;—;Fines alternatives plus grossières (x50 8 µm) ; réserve si LH300 dégrade l'uniformité
+Lactohale 210;DFE Pharma;broyé fin (fines);5;15;40;https://dfepharma.com/excipients/lactohale-210/;n/a;0;n/a;1;2;—;Écarté comme fines : trop grossier, effet faible (Kinnunen 2014)

@@ -1,10 +1,11 @@
 """Plan d'expériences séquentiel et règles de transposition d'échelle du mélange.
 
-Phase 1 : Definitive Screening Design (Jones & Nachtsheim 2011) à 5 facteurs,
+Phase 1 : Definitive Screening Design (Jones & Nachtsheim 2011) à 6 facteurs,
 construit sur la matrice de conférence C6 -> 13 lots (dont centre) + 2 centres.
 Avantages vs factoriel 2^4 complet : effets principaux orthogonaux aux
 interactions d'ordre 2, courbure estimable par facteur, 15 lots au lieu de 19,
-un facteur de plus (PSD du glycopyrronium).
+deux facteurs de plus (PSD du glycopyrronium, type de porteur).
+Le facteur F (fraction de porteur broyé) découle de lactose/RESULTATS.md.
 Phase 2 : augmentation en plan composite centré sur les 2-3 facteurs retenus.
 """
 from __future__ import annotations
@@ -43,6 +44,7 @@ FACTORS = {
     "C_precoat_tip_speed": (2.0, 4.0, 6.0, "m/s, vitesse périphérique, 2 min"),
     "D_final_blend_time": (1.0, 3.0, 5.0, "min à vitesse périphérique 2.4 m/s"),
     "E_gly_d90": (3.5, 5.0, 6.5, "µm, d90 du lot de GLY (2 lots + mélange 50/50)"),
+    "F_carrier_milled_pct": (0, 50, 100, "% de porteur broyé (ML001-type) dans le porteur, complément tamisé (SV003-type)"),
 }
 
 
@@ -50,11 +52,12 @@ def dsd_runs(seed: int = 2026) -> list[dict]:
     check_conference(C6)
     cols = list(FACTORS)
     rows = []
+    k = len(cols)
     for r in C6:
-        rows.append(r[:5])
-        rows.append([-x for x in r[:5]])
-    rows.append([0] * 5)  # centre intrinsèque du DSD
-    rows += [[0] * 5, [0] * 5]  # deux centres supplémentaires -> erreur pure
+        rows.append(r[:k])
+        rows.append([-x for x in r[:k]])
+    rows.append([0] * k)  # centre intrinsèque du DSD
+    rows += [[0] * k, [0] * k]  # deux centres supplémentaires -> erreur pure
     runs = []
     for i, coded in enumerate(rows, 1):
         run = {"essai": f"D{i:02d}", "type": "centre" if not any(coded) else "sommet"}
