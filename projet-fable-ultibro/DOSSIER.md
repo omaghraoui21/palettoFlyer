@@ -214,7 +214,7 @@ Méthode LC de départ : RP C18, KH₂PO₄ 20 mM pH 3,5 / ACN-MeOH 9:1 en gradi
 ## 8. Plan expérimental séquentiel
 
 ### Phase 0 — Méthodes et référence (semaines 1–8)
-Qualification DD/APSD/LC ; caractérisation de ≥ 5 lots de référence ; pesée du contenu ; FB-1 et FB-1-PI × 2 lots ; stabilité ouverte 4 semaines. **Sortie :** architecture (PI ou non), remplissage, résistance du dispositif candidat, estimation des CV inter-lot et intra-lot de la référence.
+Qualification DD/APSD/LC ; caractérisation de ≥ 5 lots de référence ; pesée du contenu ; **FB-2 (ML001, PI 5 % + MgSt externe) et son challenger FB-2-C (porteur 50/50 ML001–SV003) × 2 lots** — sélection justifiée dans `selection/CANDIDAT.md`, qui remplace la comparaison FB-1/FB-1-PI initiale ; stabilité ouverte 4 semaines. **Sortie :** architecture (PI ou non), remplissage, résistance du dispositif candidat, estimation des CV inter-lot et intra-lot de la référence.
 
 ### Phase 1 — Criblage définitif, 6 facteurs, 15 lots (semaines 9–20)
 Plan de Jones-Nachtsheim construit sur la matrice de conférence C6 : 12 sommets + 3 centres (`outputs/plan_dsd_15_lots.csv`, propriétés vérifiées : effets principaux orthogonaux entre eux et aux interactions d'ordre 2 ; 5 lots par niveau par facteur).

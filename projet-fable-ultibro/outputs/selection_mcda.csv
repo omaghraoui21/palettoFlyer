@@ -1,0 +1,8 @@
+candidat;K1_IND;K2_GLY;K3_stabilite;K4_fabricabilite;K5_fidelite_EPAR;K6_simplicite;K7_PI;K8_faible_debit;score_pondere_sur_5;freq_premier_MC
+C2  ML001 | 0 % LH300 | PI 5 % + MgSt ext. | fort cisaillement;4;4;4;4;5;3;3;4;3.940;0.987
+C3  50/50 SV003-ML001 | 0 % LH300 | PI 5 % + ext. | fort cisaillement;3;4;4;5;5;3;3;3;3.790;0.009
+C1  ML001 | 0 % LH300 | MgSt externe 0.14 % | fort cisaillement;4;3;3;4;3;5;5;3;3.640;0.003
+C7  ML001 | 0 % LH300 | PI 5 % + MgSt ext. | Turbula;3;3;4;3;4;4;3;3;3.330;0.000
+C5  ML001 | 4 % LH300 | MgSt externe 0.14 % | fort cisaillement;4;3;2;3;2;4;5;4;3.260;0.000
+C4  SV003 | 4 % LH300 | PI 5 % + MgSt ext. | fort cisaillement;3;4;3;3;4;2;3;3;3.220;0.000
+C6  SV003 | 0 % LH300 | MgSt externe 0.14 % | fort cisaillement;2;2;3;5;3;5;5;2;3.090;0.000
