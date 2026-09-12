@@ -40,29 +40,8 @@
   "ancien_calculateur_MgSt_negatif_accepte_g": -6.334998319918855,
   "nouveau_calculateur": {
     "bilans_aleatoires_valides": 200,
-    "cas_invalides_rejetes": 14,
-    "PI_verifie": {
-      "masses_g": {
-        "IND_maleate_g": 1.7346427833174878,
-        "GLY_matiere_g": 0.7908907996626687,
-        "MgSt_externe_g": 0.41124635081652927,
-        "lactose_fin_g": 0.0,
-        "ML001_g": 297.06322006620326,
-        "SV003_g": 0.0
-      },
-      "controles": {
-        "unites_theoriques": 12000.0,
-        "masse_totale_g": 299.99999999999994,
-        "IND_base_ug_par_gelule": 109.99999999999999,
-        "GLY_base_ug_par_gelule": 50.00000000000001,
-        "MgSt_total_pct": 0.15,
-        "MgSt_total_ug_par_gelule": 37.5,
-        "MgSt_dans_PI_g": 0.03875364918347077,
-        "masses_sous_poids_minimal": [],
-        "poids_minimal_renseigne": false,
-        "statut": "BILAN_THEORIQUE_NON_LIBERATOIRE"
-      }
-    },
+    "cas_invalides_rejetes": 15,
+    "voie_PI_refusee": true,
     "remplissage_23_75_mg_pct_fixe": {
       "unites_theoriques": 12631.578947368422,
       "masse_totale_g": 300.0,

@@ -13,3 +13,5 @@ Répondre à cinq décisions : information avant fabrication ; premier lot et al
 Exécuter les recalculs, intégrer les cinq commentaires Fable dans une copie revue d'Astra, fournir un calculateur avec entrées explicites et rejet des bilans impossibles. Livrer un journal de décisions, les contrôles reproductibles et un index de lecture. Ne pas lancer automatiquement de DoE ou de campagne expérimentale.
 
 **Exécution :** [décision et méthode 3](DECISION_METHODE_3.md), [audit](AUDIT_COMPARATIF.md), [vérifications](VERIFICATIONS.json). Aucun résultat de laboratoire inventé.
+
+**Addendum utilisateur exécuté — version 1.1 :** co-micronisation impossible actuellement ; pas de jet mill. Partir exclusivement des API micronisés chez leur fabricant. Exclure le PI co-micronisé du programme, du budget et des facteurs de DoE, sans proposer de sous-traitance pour contourner cette contrainte. Pour un défaut GLY, raisonner sur les matières reçues, leur incorporation, le support, les conditions de manipulation et l'emballage. Si nécessaire, comparer des lots déjà micronisés disponibles chez les fabricants. Préserver les sources et qualifier le PI uniquement de référence historique.

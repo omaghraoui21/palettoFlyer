@@ -13,3 +13,5 @@ Corrections appliquées :
 7. Bandeau de statut avec accès au dossier original, aux corrections et à la méthode 3. Les règles de fabrication/DoE du document historique ne sont pas des commandes à exécuter automatiquement.
 
 Le calculateur HTML reste celui de F0 : 25 mg et 0,14 % de MgSt. Pour varier la masse et choisir explicitement la convention du MgSt, utiliser le [calculateur méthode 3](../../comparaison-ultibro/calculateur_m3.py). Les commentaires du PDF original sont [archivés ici](../../comparaison-ultibro/sources/revue-fable-fournie.pdf).
+
+**Addendum version 1.1 :** API déjà micronisés chez leurs fabricants exclusivement ; co-micronisation et jet milling exclus du programme actuel. Le bandeau HTML rappelle que les sections F0-PI et les plans associés sont historiques. Le calculateur méthode 3 refuse désormais une entrée de voie PI ; les sources originales et leurs calculs restent conservés.

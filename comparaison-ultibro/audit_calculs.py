@@ -124,6 +124,8 @@ def main():
         assert math.isclose(masses['GLY_matiere_g']*args['titre_gly']/fg/q['unites_theoriques']*1e6,50,abs_tol=1e-9)
         assert all(v >= 0 for v in masses.values())
     bad = [dict(batch_g=0),dict(batch_g=True),dict(fill_mg=-1),dict(titre_ind=0),dict(titre_gly=1.1),dict(titre_ind=float('nan')),dict(mgst_value=float('inf')),dict(ml001_fraction=-.1),dict(fines_pct=100),dict(mgst_mode='implicite'),dict(mgst_value=-.1),dict(gly_route='PI',titre_gly=.95,mgst_fraction_pi=.1),dict(gly_route='PI',titre_gly=.1,mgst_fraction_pi=.9),dict(mgst_fraction_pi=.01)]
+    # Même un PI mathématiquement cohérent est exclu du programme actuel.
+    bad.append(dict(gly_route='PI',titre_gly=.949,mgst_fraction_pi=.049,titre_ind=.986))
     for change in bad:
         try:
             calculate(**dict(base,**change))
@@ -131,8 +133,6 @@ def main():
             pass
         else:
             raise AssertionError(f'Entrée invalide acceptée : {change}')
-    pi = calculate(**dict(base,gly_route='PI',titre_gly=.949,mgst_fraction_pi=.049,titre_ind=.986))
-    assert math.isclose(pi['controles']['GLY_base_ug_par_gelule'],50)
     fixed_pct = calculate(**dict(base,fill_mg=23.75))['controles']
     fixed_ug = calculate(**dict(base,fill_mg=23.75,mgst_mode='ug_par_gelule',mgst_value=37.5))['controles']
     assert math.isclose(fixed_pct['MgSt_total_ug_par_gelule'],35.625)
@@ -147,7 +147,7 @@ def main():
         'MCDA':{'C1':scores[c1],'C2':scores[c2],'C2_si_GLY_et_stabilite_moins_un_point':changed,'frequence_C2_premier_poids_seuls':freqs[c2],'interpretation':'Aucune probabilité de bioéquivalence'},
         'scores_lactose_a_corriger':score_errors,
         'ancien_calculateur_MgSt_negatif_accepte_g':negative,
-        'nouveau_calculateur':{'bilans_aleatoires_valides':200,'cas_invalides_rejetes':len(bad),'PI_verifie':pi,'remplissage_23_75_mg_pct_fixe':fixed_pct,'remplissage_23_75_mg_ug_fixe':fixed_ug,'poids_minimal_signale':low},
+        'nouveau_calculateur':{'bilans_aleatoires_valides':200,'cas_invalides_rejetes':len(bad),'voie_PI_refusee':True,'remplissage_23_75_mg_pct_fixe':fixed_pct,'remplissage_23_75_mg_ug_fixe':fixed_ug,'poids_minimal_signale':low},
         'budget_scenario_4_lots':{'NGI':27+12+3+18+18+6,'DD':54+24+6+36+36+12,'capsules_RLD_disponibles':270,'allocation_RLD_avec_reserves':3*52+34},
         'exemples_theoriques':examples()
     },ensure_ascii=False,indent=2))

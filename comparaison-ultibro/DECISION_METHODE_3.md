@@ -1,6 +1,8 @@
 # Ultibro — décision comparative et méthode 3
 
-**12 septembre 2026 · Version documentaire 1 · Aucun résultat expérimental nouveau**
+**12 septembre 2026 · Version documentaire 1.1 · Aucun résultat expérimental nouveau**
+
+**Contrainte confirmée par Omar : partir exclusivement des API déjà micronisés chez leur fabricant. Aucune co-micronisation ni opération de jet milling n'entre dans le programme actuel, sur site ou en sous-traitance.** Le PI co-micronisé reste une référence documentaire pour comparer les méthodes historiques ; ce n'est plus une option expérimentale conditionnelle. Tout MgSt du programme actuel est ajouté lors du mélange.
 
 **Décision : adopter une démarche adaptative, avec une première formulation directe, puis une seule réponse ciblée à son résultat.** La voie courte est de **3 lots de mélange** si le premier est prometteur et confirmé deux fois ; de **4 lots** si un contraste est nécessaire avant les deux confirmations. Prévoir une enveloppe initiale plafonnée à **6 lots**, puis réexaminer le mécanisme d'échec. Ce plafond est une règle économique [H], pas une garantie de succès ni un minimum statistique universel.
 
@@ -14,7 +16,7 @@ Les 19 lots d'Astra et les 15 lots du DSD de Fable sont des plans mathématiquem
 |---|---|---|---|
 | Point fort à conserver | Bilan des sels ; distinction doses ; contraste direct/PI ; cadre réglementaire | Questions expérimentales ; grades disponibles ; outils reproductibles ; variabilité entre lots | Conserver ces contributions, avec leur traçabilité |
 | Première formulation | F0 : 6 % de fines ajoutées ; 25 mg ; MgSt 0,14 % | FB-2 : ML001 sans fines ajoutées, avec PI | Première référence interne sans fines ajoutées et sans PI ; alternatives déclenchées par les mesures |
-| Question PI | Un contraste peut la tester, mais micronisation et traitement de surface peuvent être confondus | FB-2 et FB-2-C contiennent tous deux le PI | Ne pas financer une campagne de PI avant un signal GLY spécifique et un devis de faisabilité |
+| Question PI | Un contraste peut la tester, mais micronisation et traitement de surface peuvent être confondus | FB-2 et FB-2-C contiennent tous deux le PI | PI co-micronisé hors programme actuel ; API micronisés chez le fabricant et MgSt ajouté au mélange |
 | Choix du lactose | Fenêtres initiales assez larges, non validées | ML001 classé premier par notes expertes | Grade de départ pratique, pas identité du RLD ni gagnant ; SV003 et SV010 restent accessibles |
 | Optimisation | 2⁴ + centres : interactions entre quatre facteurs | DSD : six facteurs sous hypothèse de parcimonie | Aucun DoE complet avant un effet utile et une question non résolue |
 | Critère de succès | Similarité des deux actifs | Score multicritère puis pire écart DD/FPD | Aucun compromis qui compense l'échec d'un actif ; examiner aussi les profils par étages |
@@ -30,10 +32,10 @@ Il n'existe pas ici de probabilité chiffrée crédible de succès des formulati
 | P0 — système | Fixer le marché, le RLD, la capsule et la variante exacte du dispositif candidat. Mesurer les courbes débit–perte de charge des deux dispositifs. | Comparer le candidat dans son dispositif au RLD dans son **Breezhaler d'origine**. Un transfert de poudre entre dispositifs est une expérience diagnostique séparée. |
 | P0 — mesure | Vérifier extraction/récupération des deux actifs, répétabilité, adsorption, LOQ par fraction, bilan de récupération, débit/volume et coupures NGI. | Une faible FPD GLY doit être attribuable au produit, pas à une méthode insuffisamment sensible. |
 | P0 — référence | Trois lots commerciaux distincts : âge/stockage, masse nette individuelle, DD et APSD à trois débits pertinents ; point de départ 30/60/90 L/min, à justifier avec le dispositif. | Définir les cibles observées et leur variabilité ; repérer l'actif et le débit les plus discriminants. |
-| P0 — matières | CoA et titres en sels « tels quels », formes solides, historique de micronisation ; PSD complète avec dispersion qualifiée ; fractions fines et comportement des lactoses réellement en stock. | Éviter un lot construit sur un mauvais titre, une agglomération mal interprétée ou une identité de grade supposée. |
+| P0 — matières | API micronisés chez leur fabricant : CoA et titres en sels « tels quels », formes solides, PSD du lot livré avec méthode/dispersion, âge depuis micronisation et stockage ; fractions fines et comportement des lactoses réellement en stock. | Vérifier l'état reçu. Une PSD fournisseur acceptable ne démontre pas à elle seule la dispersibilité après transport, stockage et mélange. |
 | P0 — faisabilité | Confirmer l'Inversina, son récipient, charge minimale et vitesse ; pesées minimales, pertes, tamis et remplissage. Comparer à l'accès éventuel à un mélangeur à fort cisaillement. | Choisir une charge réalisable et un procédé accessible avant de consommer les actifs. |
 | P1 — excipients RLD | Si méthode accessible rapidement : estimation de MgSt avec blanc lactose, récupération et incertitude ; PSD/fines du contenu avec contrôle des artefacts. | Modifier un point de départ seulement si la mesure distingue réellement les options. Le Mg élémentaire ne donne pas seul une masse exacte de MgSt commercial. |
-| Conditionnel | Raman, SEM, surface spécifique ou caractérisation détaillée d'un PI. | Les déclencher seulement si leur résultat peut changer le prochain lot. |
+| Conditionnel | Raman, SEM ou surface spécifique des matières reçues ou du mélange. | Les déclencher seulement si leur résultat peut changer le prochain lot. |
 
 **Trois points de vigilance issus des sources.**
 
@@ -43,11 +45,11 @@ Il n'existe pas ici de probabilité chiffrée crédible de succès des formulati
 
 **Choix proposé [H] : 0,15 % de MgSt total comme point de départ documentaire**, sauf mesure RLD plus pertinente obtenue avant fabrication. On ne consomme pas deux lots pour comparer immédiatement 0,14 et 0,15 %. La différence n'est que de 0,030 g pour 300 g [C] ; aucune direction d'effet n'est prouvée. Toute décision différente est consignée avant le premier lot.
 
-L'Inversina et les actifs micronisés achetés constituent la voie de départ, sous réserve de faisabilité. Une étude placebo courte peut vérifier charge, mélange et remplissage ; elle ne démontre pas l'uniformité à faible dose. Les réglages GEA 2500/1500 rpm ne sont pas des réglages Inversina. Le tamis de 250 µm ne remplace pas une micronisation. Sans paramètre opératoire et charge définis pour l'appareil disponible, le lot actif n'est pas prêt à être fabriqué : c'est une information manquante, pas une raison de recopier une vitesse publiée.
+L'Inversina et les actifs micronisés chez leur fabricant constituent la voie de départ, sous réserve de faisabilité du mélange. Une étude placebo courte peut vérifier charge, mélange et remplissage ; elle ne démontre pas l'uniformité à faible dose. Les réglages GEA 2500/1500 rpm ne sont pas des réglages Inversina. Le tamis de 250 µm ne remplace pas une micronisation et ne permet pas de corriger une PSD primaire inadéquate. Une éventuelle désagglomération douce doit être qualifiée ; elle n'est ni une nouvelle micronisation ni une co-micronisation. Sans paramètre opératoire et charge définis pour l'appareil disponible, le lot actif n'est pas prêt à être fabriqué : c'est une information manquante, pas une raison de recopier une vitesse publiée.
 
 ## 3. Les premières formulations et leur ordre
 
-**Premier lot : M3-A [H]**, deux actifs micronisés achetés, ML001 comme porteur de départ, aucune fine ajoutée, MgSt entièrement externe. Choisir une incorporation par dilution géométrique adaptée au matériel, avec ordre d'ajout et temps fixés avant fabrication ; mesurer l'homogénéité finale. La constitution préalable lactose/MgSt est une opération de mélange : ne pas présumer qu'elle forme un film de surface.
+**Premier lot : M3-A [H]**, maléate d'indacatérol et bromure de glycopyrronium déjà micronisés chez leurs fabricants, ML001 comme porteur de départ, aucune fine ajoutée, MgSt entièrement ajouté au mélange. Choisir une incorporation par dilution géométrique adaptée au matériel, avec ordre d'ajout et temps fixés avant fabrication ; mesurer l'homogénéité finale. La constitution préalable lactose/MgSt est une opération de mélange : ne pas présumer qu'elle forme un film de surface ou qu'elle reproduit un PI co-micronisé.
 
 ML001 est ici un comparateur interne disponible. Si sa caractérisation montre avant fabrication un défaut rédhibitoire de remplissage ou une inadéquation évidente à la référence, remplacer ce point de départ par un porteur justifié et enregistrer ce changement. La proximité PSD seule ne prédit pas l'APSD.
 
@@ -72,7 +74,7 @@ ML001 est ici un comparateur interne disponible. Si sa caractérisation montre a
 | Uniformité correcte mais remplissage/écoulement pénalisants, ou détachement excessif cohérent avec trop de fines natives | M3-C, à procédé constant : le remplacement de la moitié du porteur par SV003 améliore-t-il le défaut ? Cette variation change plusieurs attributs du porteur ; elle n'isole pas une propriété de surface. |
 | Uniformité correcte ; FPD trop faible pour les deux actifs ; bilan montrant une rétention sur porteur plutôt qu'un défaut de dose ou de dispositif | M3-F3 sur le même porteur : 3 % de fines ajoutées améliorent-ils simultanément les deux profils ? Si un grade fin qualifié n'est pas disponible rapidement, tester d'abord une modification de mélange justifiée. |
 | M3-F3 améliore les deux actifs, sans atteindre la cible ni dégrader l'uniformité | M3-F6 peut vérifier la poursuite de l'effet. Ne pas extrapoler la monotonie ; 6 % reste l'hypothèse d'Astra. |
-| GLY seul dérive au stockage ou reste déficient après exclusion d'un artefact analytique/d'une PSD inadéquate | Envisager un contraste direct/PI à composition totale constante, avec coût et charge minimale du fournisseur. Mesurer la PSD après traitement. Sans témoin de même histoire de micronisation, la conclusion porte sur la **voie entière**, pas sur le seul MgSt. |
+| GLY seul dérive au stockage ou reste déficient après exclusion d'un artefact analytique | Identifier la cause dominante parmi état de l'API reçu, incorporation, exposition à l'humidité et emballage. Tester une seule correction ciblée à la fois. Si l'API est en cause, comparer un autre lot ou grade déjà micronisé par le fabricant, disponible et caractérisé ; garder formule et procédé constants. Pas de recours au PI co-micronisé. Si aucun API accessible ne convient, suspendre la piste avec les moyens actuels. |
 | DD faible pour les deux actifs et forte rétention capsule/dispositif | Examiner d'abord capsule, perçage, masse, volume d'air et dispositif ; ne pas ajouter automatiquement des fines. |
 | Profils incompatibles, résultats analytiques non fiables ou dégradation préoccupante | Suspendre la piste ; résoudre la cause avant de consommer un nouveau lot. |
 
@@ -112,7 +114,7 @@ Prévision de capsules [H] : RLD 3 × 90 = 270 (neuf boîtes de 30, avec numéro
 
 Pour un lot candidat retenu : 27 aérosol à T0 + 9 dosages + 5 eau + 34 stabilité + 20 réserve = 95 capsules. Préparer 120 par lot avant les résultats, soit 480 pour le scénario à quatre lots, afin d'éviter un second remplissage à un âge différent. Le lot exploratoire non retenu n'a que 52 capsules affectées, réserve comprise ; son reliquat n'impose aucune analyse. Les prélèvements d'homogénéité du mélange et la qualification du remplissage s'ajoutent en poudre/consommables. Ne pas retirer du porteur avant ajout des actifs puis conserver un bilan théorique inchangé.
 
-La masse du lot dépend de la charge minimale qualifiée, pas du nombre de capsules souhaité. À 300 g et 25 mg, trois/quatre/six lots représentent 0,9/1,2/1,8 kg [C]. Aucun gain financier chiffré n'est affirmé sans devis. Réduire les achats d'API inutiles, les campagnes de PI et les profils non décisionnels importe autant que réduire les lots.
+La masse du lot dépend de la charge minimale qualifiée, pas du nombre de capsules souhaité. À 300 g et 25 mg, trois/quatre/six lots représentent 0,9/1,2/1,8 kg [C]. Aucun gain financier chiffré n'est affirmé sans devis. Réduire les achats d'API inutiles et les profils non décisionnels importe autant que réduire les lots. Le budget actuel ne comprend aucune campagne de PI ni de micronisation.
 
 ## 6. Quels facteurs entrent réellement dans un DoE ?
 
@@ -122,9 +124,9 @@ La masse du lot dépend de la charge minimale qualifiée, pas du nombre de capsu
 | Durée ou intensité de mélange | Effet reproductible sur détachement/uniformité, machine définie | Paramètre mesurable propre à l'appareil ; ne pas confondre vitesse et énergie dissipée |
 | Fraction ML001/SV003 | Contraste porteur utile, compromis restant | Variable de mélange, somme des fractions contrainte |
 | MgSt total | Mesure RLD ou réponse expérimentale justifiant une variation | Une seule convention : % poudre ou µg/capsule ; différencier quantité et mode d'incorporation |
-| PSD GLY | Écart GLY persistant, lots matériels réellement accessibles et caractérisés | Attribut mesuré ; un mélange 50/50 de lots n'a pas automatiquement le d90 moyen |
+| PSD GLY | Écart GLY persistant, lots déjà micronisés chez le fabricant réellement accessibles et caractérisés | Attribut mesuré ou comparaison de lots ; aucun réglage de jet mill comme facteur. Un mélange 50/50 de lots n'a pas automatiquement le d90 moyen |
 | Masse de remplissage | Défaut d'émission/remplissage attribué à la masse | Garder 110/50 µg par capsule ; préciser ce qui reste constant pour le MgSt |
-| PI, capsule, dispositif, humidité | Question spécifique non résolue | Contraste de voie ou étude de robustesse ; ne pas tout ajouter au même écran |
+| Capsule, dispositif, humidité | Question spécifique non résolue | Contraste ciblé ou étude de robustesse ; ne pas tout ajouter au même écran |
 
 Un seul facteur actif : exploration locale à trois niveaux, avec répétition utile, sans imposer un DoE multivarié. Deux facteurs et interaction plausible : **2² + deux centres indépendants**, soit six fabrications au maximum pour ce module [H] ; les centres détectent une courbure globale, pas deux termes quadratiques séparés. Réutiliser des lots antérieurs seulement si composition, procédé, matériel, vieillissement et bloc sont compatibles. Trois facteurs ne justifient un plan plus grand qu'après argument explicite de décision et de rang du modèle. Ce module est une dépense ultérieure, exclue de la voie courte à 3–4 lots.
 

@@ -35,7 +35,8 @@ def calculate(*, batch_g, fill_mg, titre_ind, titre_gly,
 
     mgst_mode : 'pct_poudre' (% m/m total) ou 'ug_par_gelule' (total absolu).
     fines_pct : % m/m de la poudre ; ml001_fraction : fraction du porteur restant.
-    PI : titre_gly et mgst_fraction_pi doivent être mesurés séparément.
+    Programme actuel : gly_route='directe' et mgst_fraction_pi=0 uniquement.
+    Les API sont déjà micronisés chez le fabricant ; aucune co-micronisation.
     La masse de MgSt désigne l'excipient qualifié, pas le magnésium élémentaire.
     """
     batch_g = _number("batch_g", batch_g, 0, strict_low=True)
@@ -46,8 +47,8 @@ def calculate(*, batch_g, fill_mg, titre_ind, titre_gly,
     ml001_fraction = _number("ml001_fraction", ml001_fraction, 0, 1)
     mgst_fraction_pi = _number("mgst_fraction_pi", mgst_fraction_pi, 0, 1)
     mgst_value = _number("mgst_value", mgst_value, 0)
-    if gly_route not in ("directe", "PI"):
-        raise ValueError("gly_route: directe ou PI")
+    if gly_route != "directe":
+        raise ValueError("Programme actuel : API micronisés chez le fabricant, voie directe uniquement ; PI exclu")
     if gly_route == "directe" and mgst_fraction_pi != 0:
         raise ValueError("Voie directe : MgSt incorporé au PI impossible")
     if titre_gly + mgst_fraction_pi > 1 + 1e-12:

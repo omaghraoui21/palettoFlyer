@@ -2,6 +2,8 @@
 
 12 septembre 2026. Voir la [méthode 3](DECISION_METHODE_3.md) pour les choix opératoires et la signification de [E]/[C]/[H]. Aucun essai physique n'a été réalisé pendant cette revue.
 
+**Mise à jour de périmètre :** Omar confirme l'impossibilité actuelle de co-microniser et demande des API déjà micronisés chez leur fabricant. Le PI est donc exclu du programme actuel, y compris en sous-traitance. Ses bilans et publications restent analysés ci-dessous comme travaux historiques.
+
 ## Périmètre et suffisance des pièces
 
 Le projet Fable est dans `omaghraoui21/palettoFlyer`, branche historique `hoplite/poseidonia-706c0148`. Le commit `bf9b1e07bf6e38d71ccc5fd4975ff82990f583f2` contient le protocole et son générateur de pesées ; `4702fff9bc24264f32d7c81146563b360ed6e42b` ajoute la présentation. La branche comparative part de ce dernier commit. La branche `main` contient un autre projet et n'est pas la source Ultibro.
@@ -15,9 +17,9 @@ Le ZIP Astra apporte le HTML complet, le bilan F0 et le plan de 19 lots. `MEMORY
 | ID | Localisation et constat | Statut / conséquence |
 |---|---|---|
 | R01 | `PROTOCOLE_FB2.md`, EXP-07 et §8 : la priorité proposée en cas de pénurie de RLD favorise le dispositif candidat ; la référence est parfois définie avec le « même dispositif ». | [H] Inadapté à la comparaison produit commercial/test commercial. Garder Breezhaler comme ancre RLD ; transfert de poudre uniquement comme pont diagnostique. |
-| R02 | `CANDIDAT.md`, protocole et présentation : FB-2 et FB-2-C ont tous deux le PI. | [C] Ce contraste teste le porteur et ne permet pas de décider « PI nécessaire ou non ». La méthode 3 rétablit une voie directe accessible, avec PI conditionnel. |
+| R02 | `CANDIDAT.md`, protocole et présentation : FB-2 et FB-2-C ont tous deux le PI. | [C] Ce contraste teste le porteur et ne permet pas de décider « PI nécessaire ou non ». La méthode 3 utilise exclusivement les API micronisés chez le fabricant ; le PI est hors programme actuel. |
 | R03 | Les deux dossiers prennent 0,14 % de MgSt comme départ. L'EPAR historique mentionne 0,15 % dans « Formulation excipients », p. 24. | [E] Deux indications documentaires différentes, aucune mesure du RLD actuel. Le point de départ de méthode 3 est 0,15 % [H], révisable avant fabrication ; aucun optimum revendiqué. [EPAR](https://www.ema.europa.eu/en/documents/assessment-report/ultibro-breezhaler-epar-public-assessment-report_en.pdf). |
-| R04 | Procédés GEA à fort cisaillement, PI par jet mill ; moyens locaux : Inversina et API micronisés achetés. | [H] Les durées/vitesses GEA ne se transfèrent pas directement. Pas d'achat automatique d'une campagne de PI de 20 g de GLY. |
+| R04 | Procédés GEA à fort cisaillement, PI par jet mill ; moyens locaux : Inversina et API micronisés achetés. | [H] Les durées/vitesses GEA ne se transfèrent pas directement. Aucun lot du programme actuel ne nécessite une campagne de PI ou un jet mill. |
 | R05 | `PROTOCOLE_FB2.md`, EXP-04 : conversion de toutes les coupures NGI avec un exposant universel 0,5. | [E] L'équation 2 de l'article utilise un exposant propre à l'étage. Employer la calibration au débit réel ; une approximation peut modifier la FPD calculée. [Rzewińska 2025](https://link.springer.com/article/10.1208/s12249-025-03182-9). |
 | R06 | `batch_record.py` calcule sans valider les entrées ; l'écriture omet les masses ≤ 0. | [C] Le cas IND 0,986, GLY-Br du PI 0,10 et MgSt du PI 0,90 produit environ **−6,335 g** de MgSt externe, sans rejet. Le bilan algébrique semble encore fermé. Le nouveau calculateur bloque ce cas. |
 | R07 | `PROTOCOLE_FB2.md`, prélèvement du prémélange avant ajout des actifs. | [C] Retirer 3 g de support d'une charge de 300 g, sans réconcilier, enrichit ensuite les actifs d'environ 1 %. Déduire les masses réellement retirées ; caractériser sur un placebo ou échantillon dédié si possible. |
