@@ -1,0 +1,202 @@
+{
+  "date_revue": "2026-09-12",
+  "base_fable_commit": "4702fff9bc24264f32d7c81146563b360ed6e42b",
+  "branche": "redteam/astra-fable-methode-3",
+  "originaux_fable": [
+    {
+      "path": "README.md",
+      "bytes": 1120,
+      "sha256": "e5c66d3528002f55ff006e1fe777492b6fa00d787c732832ea61d02086811b99"
+    },
+    {
+      "path": "projet-fable-ultibro/DOSSIER.md",
+      "bytes": 31145,
+      "sha256": "eec36ded85fb03650ac112bd5bd372c4d2ae20fa7e76710466aa7e1749350f8d"
+    },
+    {
+      "path": "projet-fable-ultibro/README.md",
+      "bytes": 2055,
+      "sha256": "bb87b122a43b2fa53789071096201f55ea51452ebb60d73eeca7cd6504d599e3"
+    },
+    {
+      "path": "projet-fable-ultibro/lactose/IDENTIFICATION_RZEWINSKA.md",
+      "bytes": 10860,
+      "sha256": "85d5586da66cb2911e10e5979509647791945901e796be714fc7b2c5569389b0"
+    },
+    {
+      "path": "projet-fable-ultibro/lactose/PROMPT.md",
+      "bytes": 5122,
+      "sha256": "f9dc8d98192b9dafb39a10fefd1496e36ea6a288aeb18967001d53ec8a36ca68"
+    },
+    {
+      "path": "projet-fable-ultibro/lactose/RESULTATS.md",
+      "bytes": 16067,
+      "sha256": "55fe66058a14d671786d11fe60a399c986a4a07216bee22fcfd0475fe8adfe93"
+    },
+    {
+      "path": "projet-fable-ultibro/lactose/__pycache__/identify_grades.cpython-312.pyc",
+      "bytes": 8163,
+      "sha256": "038d097977f8408a71043dd686f4744c0f6544c31eb31aa555364846826d2a78"
+    },
+    {
+      "path": "projet-fable-ultibro/lactose/candidats_lactose.csv",
+      "bytes": 2065,
+      "sha256": "77c64da6eafe2262fc6e28767bca93e7b7e5aed48dd125dd3d1b67bfbfe63189"
+    },
+    {
+      "path": "projet-fable-ultibro/lactose/identify_grades.py",
+      "bytes": 5995,
+      "sha256": "6a547c242318ed088c075c894ee77552d85e22c145a03a20f2e6fe38926b73f6"
+    },
+    {
+      "path": "projet-fable-ultibro/outputs/bilan_matiere.csv",
+      "bytes": 2240,
+      "sha256": "2a86c6aac68bfb0c8c0c9bc185b590644b95ae1e80252e5c549cfc62a5a7cbac"
+    },
+    {
+      "path": "projet-fable-ultibro/outputs/fiche_pesee_FB2.csv",
+      "bytes": 825,
+      "sha256": "19c7cc285029633aa14f637129cecb4c3831f94abd73c0f1f3f9014f27ad68e3"
+    },
+    {
+      "path": "projet-fable-ultibro/outputs/fiche_pesee_FB2C.csv",
+      "bytes": 918,
+      "sha256": "2a6d6cf422c98cf85403a3469128ad72a6705606b1f5a33a37fe20dc3c4b29fe"
+    },
+    {
+      "path": "projet-fable-ultibro/outputs/physique_melange.json",
+      "bytes": 1902,
+      "sha256": "7aa5401c2dc17cd40ee7680175372040c17d4f53c63a4c2c7512a8f60be1933f"
+    },
+    {
+      "path": "projet-fable-ultibro/outputs/plan_dsd_15_lots.csv",
+      "bytes": 1567,
+      "sha256": "c152e502e3e37aca5616dfa9741c8c31efcd394aaf5d6603d9f7500da10ce23a"
+    },
+    {
+      "path": "projet-fable-ultibro/outputs/puissance_equivalence_in_vitro.csv",
+      "bytes": 2670,
+      "sha256": "f4a53019ce3bafe2af33ded802d20fd6a95d445e37a309773cc584817ed9d599"
+    },
+    {
+      "path": "projet-fable-ultibro/outputs/selection_mcda.csv",
+      "bytes": 787,
+      "sha256": "67eb690464281e891ea0a528b6b5a193aadf65e5f5d2f9ab13a04bd4808b3d7e"
+    },
+    {
+      "path": "projet-fable-ultibro/outputs/transposition_melangeur.csv",
+      "bytes": 234,
+      "sha256": "f53013ce9bd765374758df42d267ad6ef6a37f073526c263b553df05adcb76e8"
+    },
+    {
+      "path": "projet-fable-ultibro/presentation/PROMPT_GENERATION.md",
+      "bytes": 2210,
+      "sha256": "6fd85f7664376b7c87a73b62e67b1058d90231e89a81d68d5a6e031a34d79da2"
+    },
+    {
+      "path": "projet-fable-ultibro/presentation/SCRIPT.md",
+      "bytes": 17136,
+      "sha256": "f1d95d9fbe7d5b5145b7d71432db200be93715de3d18a851c5c2fc83bf5cd30d"
+    },
+    {
+      "path": "projet-fable-ultibro/protocole/PROMPT.md",
+      "bytes": 2676,
+      "sha256": "7d41c3e53322512f57d0fc10203c4544dcdb3f8ff5ab22304aeeedc9bfcc8be0"
+    },
+    {
+      "path": "projet-fable-ultibro/protocole/PROTOCOLE_FB2.md",
+      "bytes": 20794,
+      "sha256": "92b3e0a4a651dbfeeb9e9e628a8406a5032cef66a6621e644c3bf68461d41ec7"
+    },
+    {
+      "path": "projet-fable-ultibro/selection/CANDIDAT.md",
+      "bytes": 13969,
+      "sha256": "62583067725013b0cea706148a759b22b682952b3bacb290d06e8300b81efbc5"
+    },
+    {
+      "path": "projet-fable-ultibro/selection/PROMPT.md",
+      "bytes": 3321,
+      "sha256": "dedea61a18a428731c364068f77fe322c8abb00c481a597a1e13567ed474e474"
+    },
+    {
+      "path": "projet-fable-ultibro/tools/__pycache__/batch_record.cpython-312.pyc",
+      "bytes": 6481,
+      "sha256": "2f228a6ffdd0717ebfaf91700c6a03c2e4a1553b3c6b1046f76de1074ec9bce6"
+    },
+    {
+      "path": "projet-fable-ultibro/tools/__pycache__/formulation.cpython-312.pyc",
+      "bytes": 11970,
+      "sha256": "c72770ee2fe5e0134c50a95eeaa4aa7cda89625619765b9d800da993d57e45ed"
+    },
+    {
+      "path": "projet-fable-ultibro/tools/__pycache__/select_candidate.cpython-312.pyc",
+      "bytes": 4698,
+      "sha256": "56f4c4f27748fb88101e67eb1718892d2b5038cc759d1f1763047dc52acde005"
+    },
+    {
+      "path": "projet-fable-ultibro/tools/batch_record.py",
+      "bytes": 4695,
+      "sha256": "5f49c2f36b67268909d3f58a4feef0b515781206ec1dad72d5480611265f9b0b"
+    },
+    {
+      "path": "projet-fable-ultibro/tools/doe.py",
+      "bytes": 5509,
+      "sha256": "71b1552617939b5877e468b788d6d98365e0763ce8984bb7ceea94ac2bc4a122"
+    },
+    {
+      "path": "projet-fable-ultibro/tools/equivalence_power.py",
+      "bytes": 3829,
+      "sha256": "30af09172df02329db53e8f97a749a779e03106761c28c30a98c9d8358f8ab4b"
+    },
+    {
+      "path": "projet-fable-ultibro/tools/formulation.py",
+      "bytes": 8869,
+      "sha256": "b6a544c9c760f9368e688af4dd5c3195cba32e6c06c821cca04e2a79961b0b55"
+    },
+    {
+      "path": "projet-fable-ultibro/tools/select_candidate.py",
+      "bytes": 2617,
+      "sha256": "bade7624af98f1a9973d03e82195bbb9e815ac3236a5e5639840be1a596c0fbb"
+    }
+  ],
+  "originaux_astra": [
+    {
+      "path": "projet-astra-ultibro/source-originale/MEMORY.md",
+      "bytes": 249,
+      "sha256": "c39c5d1aa4ed579dcfb3247a79bbddbf80b1cc29355676b150877e25288df047"
+    },
+    {
+      "path": "projet-astra-ultibro/source-originale/outputs/calcul-formule-f0.csv",
+      "bytes": 556,
+      "sha256": "7270d13430e931ead2907960dd2ac84447ea95c5fdfd8c449f0d3bda9bcea7d3"
+    },
+    {
+      "path": "projet-astra-ultibro/source-originale/outputs/developpement-ultibro.html",
+      "bytes": 73253,
+      "sha256": "d52d644184e3c86df4079427ac9b254b3f472fd48c625fd650e640112a5e7670"
+    },
+    {
+      "path": "projet-astra-ultibro/source-originale/outputs/plan-experiences-19-lots.csv",
+      "bytes": 2963,
+      "sha256": "bd217bceb7c37902cba340f1d4c878533970027318d0d9c74bdb722f3557a186"
+    }
+  ],
+  "revue_fournie": {
+    "path": "comparaison-ultibro/sources/revue-fable-fournie.pdf",
+    "bytes": 47435,
+    "sha256": "40201641217c1bc4fdb6a4a4bf52d855d7731915ff17d3439dc60dfb1a7c9872"
+  },
+  "corrections_copie_html": [
+    "Bandeau de statut et accès méthode 3",
+    "Base de calcul F0",
+    "Fenêtre GLY",
+    "Fenêtre lactose",
+    "Exemple 2 dans le corps",
+    "Exception charbon explicite",
+    "Exemples 1 et 2 dans les sources",
+    "Statut du brevet avec portée limitée",
+    "Libellé export F0",
+    "Libellé export DoE",
+    "Signal EPAR MgSt"
+  ]
+}

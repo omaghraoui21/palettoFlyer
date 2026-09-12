@@ -1,0 +1,191 @@
+{
+  "statut": "CONTROLES_PASSES_ANOMALIES_HISTORIQUES_DOCUMENTEES",
+  "originaux_controles": 36,
+  "fichiers_historiques_modifies": 0,
+  "Astra_19_lots": {
+    "sommets": 16,
+    "centres": 3,
+    "equilibre_par_facteur": "8/8",
+    "bilans": "conformes aux arrondis",
+    "rang_modele_quadratique_complet": 12
+  },
+  "Fable_DSD": {
+    "lignes": 15,
+    "reglages_distincts": 13,
+    "rang_lineaire_carres": 13,
+    "ddl_residuels": 2,
+    "ddl_manque_ajustement": 0,
+    "colonnes_quadratique_complet": 28,
+    "rang_quadratique_complet": 13
+  },
+  "MCDA": {
+    "C1": 3.64,
+    "C2": 3.94,
+    "C2_si_GLY_et_stabilite_moins_un_point": 3.59,
+    "frequence_C2_premier_poids_seuls": 0.9874,
+    "interpretation": "Aucune probabilité de bioéquivalence"
+  },
+  "scores_lactose_a_corriger": [
+    {
+      "grade": "Respitose SV003",
+      "historique": 11,
+      "recalcule": 9
+    },
+    {
+      "grade": "Lactohale 206",
+      "historique": 7,
+      "recalcule": 6
+    }
+  ],
+  "ancien_calculateur_MgSt_negatif_accepte_g": -6.334998319918855,
+  "nouveau_calculateur": {
+    "bilans_aleatoires_valides": 200,
+    "cas_invalides_rejetes": 14,
+    "PI_verifie": {
+      "masses_g": {
+        "IND_maleate_g": 1.7346427833174878,
+        "GLY_matiere_g": 0.7908907996626687,
+        "MgSt_externe_g": 0.41124635081652927,
+        "lactose_fin_g": 0.0,
+        "ML001_g": 297.06322006620326,
+        "SV003_g": 0.0
+      },
+      "controles": {
+        "unites_theoriques": 12000.0,
+        "masse_totale_g": 299.99999999999994,
+        "IND_base_ug_par_gelule": 109.99999999999999,
+        "GLY_base_ug_par_gelule": 50.00000000000001,
+        "MgSt_total_pct": 0.15,
+        "MgSt_total_ug_par_gelule": 37.5,
+        "MgSt_dans_PI_g": 0.03875364918347077,
+        "masses_sous_poids_minimal": [],
+        "poids_minimal_renseigne": false,
+        "statut": "BILAN_THEORIQUE_NON_LIBERATOIRE"
+      }
+    },
+    "remplissage_23_75_mg_pct_fixe": {
+      "unites_theoriques": 12631.578947368422,
+      "masse_totale_g": 300.0,
+      "IND_base_ug_par_gelule": 109.99999999999999,
+      "GLY_base_ug_par_gelule": 50.0,
+      "MgSt_total_pct": 0.15,
+      "MgSt_total_ug_par_gelule": 35.625,
+      "MgSt_dans_PI_g": 0.0,
+      "masses_sous_poids_minimal": [],
+      "poids_minimal_renseigne": false,
+      "statut": "BILAN_THEORIQUE_NON_LIBERATOIRE"
+    },
+    "remplissage_23_75_mg_ug_fixe": {
+      "unites_theoriques": 12631.578947368422,
+      "masse_totale_g": 300.0,
+      "IND_base_ug_par_gelule": 109.99999999999999,
+      "GLY_base_ug_par_gelule": 50.0,
+      "MgSt_total_pct": 0.15789473684210525,
+      "MgSt_total_ug_par_gelule": 37.5,
+      "MgSt_dans_PI_g": 0.0,
+      "masses_sous_poids_minimal": [],
+      "poids_minimal_renseigne": false,
+      "statut": "BILAN_THEORIQUE_NON_LIBERATOIRE"
+    },
+    "poids_minimal_signale": [
+      "GLY_matiere_g",
+      "MgSt_externe_g"
+    ]
+  },
+  "budget_scenario_4_lots": {
+    "NGI": 84,
+    "DD": 168,
+    "capsules_RLD_disponibles": 270,
+    "allocation_RLD_avec_reserves": 190
+  },
+  "exemples_theoriques": {
+    "M3-A": {
+      "masses_g": {
+        "IND_maleate_g": 1.710357784351043,
+        "GLY_matiere_g": 0.7505553688798726,
+        "MgSt_externe_g": 0.45,
+        "lactose_fin_g": 0.0,
+        "ML001_g": 297.0890868467691,
+        "SV003_g": 0.0
+      },
+      "controles": {
+        "unites_theoriques": 12000.0,
+        "masse_totale_g": 300.0,
+        "IND_base_ug_par_gelule": 109.99999999999999,
+        "GLY_base_ug_par_gelule": 50.00000000000001,
+        "MgSt_total_pct": 0.15,
+        "MgSt_total_ug_par_gelule": 37.5,
+        "MgSt_dans_PI_g": 0.0,
+        "masses_sous_poids_minimal": [],
+        "poids_minimal_renseigne": false,
+        "statut": "BILAN_THEORIQUE_NON_LIBERATOIRE"
+      }
+    },
+    "M3-C": {
+      "masses_g": {
+        "IND_maleate_g": 1.710357784351043,
+        "GLY_matiere_g": 0.7505553688798726,
+        "MgSt_externe_g": 0.45,
+        "lactose_fin_g": 0.0,
+        "ML001_g": 148.54454342338454,
+        "SV003_g": 148.54454342338454
+      },
+      "controles": {
+        "unites_theoriques": 12000.0,
+        "masse_totale_g": 300.0,
+        "IND_base_ug_par_gelule": 109.99999999999999,
+        "GLY_base_ug_par_gelule": 50.00000000000001,
+        "MgSt_total_pct": 0.15,
+        "MgSt_total_ug_par_gelule": 37.5,
+        "MgSt_dans_PI_g": 0.0,
+        "masses_sous_poids_minimal": [],
+        "poids_minimal_renseigne": false,
+        "statut": "BILAN_THEORIQUE_NON_LIBERATOIRE"
+      }
+    },
+    "M3-F3": {
+      "masses_g": {
+        "IND_maleate_g": 1.710357784351043,
+        "GLY_matiere_g": 0.7505553688798726,
+        "MgSt_externe_g": 0.45,
+        "lactose_fin_g": 9.0,
+        "ML001_g": 288.0890868467691,
+        "SV003_g": 0.0
+      },
+      "controles": {
+        "unites_theoriques": 12000.0,
+        "masse_totale_g": 300.0,
+        "IND_base_ug_par_gelule": 109.99999999999999,
+        "GLY_base_ug_par_gelule": 50.00000000000001,
+        "MgSt_total_pct": 0.15,
+        "MgSt_total_ug_par_gelule": 37.5,
+        "MgSt_dans_PI_g": 0.0,
+        "masses_sous_poids_minimal": [],
+        "poids_minimal_renseigne": false,
+        "statut": "BILAN_THEORIQUE_NON_LIBERATOIRE"
+      }
+    },
+    "M3-F6": {
+      "masses_g": {
+        "IND_maleate_g": 1.710357784351043,
+        "GLY_matiere_g": 0.7505553688798726,
+        "MgSt_externe_g": 0.45,
+        "lactose_fin_g": 18.0,
+        "ML001_g": 279.0890868467691,
+        "SV003_g": 0.0
+      },
+      "controles": {
+        "unites_theoriques": 12000.0,
+        "masse_totale_g": 300.0,
+        "IND_base_ug_par_gelule": 109.99999999999999,
+        "GLY_base_ug_par_gelule": 50.00000000000001,
+        "MgSt_total_pct": 0.15,
+        "MgSt_total_ug_par_gelule": 37.5,
+        "MgSt_dans_PI_g": 0.0,
+        "masses_sous_poids_minimal": [],
+        "poids_minimal_renseigne": false,
+        "statut": "BILAN_THEORIQUE_NON_LIBERATOIRE"
+      }
+    }
+  }
+}

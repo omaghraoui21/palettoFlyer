@@ -1,0 +1,13 @@
+{
+  "batch_g": 300,
+  "fill_mg": 25,
+  "titre_ind": 0.986,
+  "titre_gly": 0.99,
+  "gly_route": "directe",
+  "mgst_fraction_pi": 0,
+  "mgst_mode": "pct_poudre",
+  "mgst_value": 0.15,
+  "fines_pct": 0,
+  "ml001_fraction": 1,
+  "min_weigh_g": null
+}
