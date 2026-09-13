@@ -4,6 +4,8 @@ Branche de travail indépendante : `redteam/astra-fable-methode-3`.
 
 **Version 1.1 — contrainte opératoire confirmée : API micronisés chez leurs fabricants, aucune co-micronisation ni jet milling dans le programme actuel.** MgSt ajouté au mélange. Le PI demeure une référence historique, exclue des essais proposés.
 
+**Comparatif interactif :** ouvrir [COMPARATIF_TROIS_METHODES.html](COMPARATIF_TROIS_METHODES.html). Rapport autonome hors ligne : trois stratégies, matrices des essais, formulations, calculateur direct, budget, sensibilité MCDA et sources complètes embarquées. Reproduction depuis la racine : `python -B comparaison-ultibro/html/construire.py`.
+
 1. Lire la [décision et le programme adaptatif](DECISION_METHODE_3.md).
 2. Consulter l'[audit comparatif](AUDIT_COMPARATIF.md), le [prompt exécuté](GOAL_PROMPT.md) et le [journal des décisions](JOURNAL_DECISIONS.csv).
 3. Ouvrir le [dossier Astra revu, HTML autonome](../projet-astra-ultibro/version-revue/developpement-ultibro.html) et ses [corrections](../projet-astra-ultibro/version-revue/CORRECTIONS.md).

@@ -1,0 +1,14 @@
+{
+  "status": "PASS_STATIC_AND_NUMERICAL",
+  "documents_bytes_verified": 46,
+  "astra_rows": 19,
+  "fable_rows": 15,
+  "experiments": 16,
+  "power_scenarios": 72,
+  "js_examples_match_python": 4,
+  "invalid_inputs_rejected": 8,
+  "mcda_sensitivity": "3.59",
+  "cost_formula": "13080 EUR for test inputs",
+  "external_runtime_dependencies": 0,
+  "visual_browser_check": "NOT_COMPLETED_LOCAL_FILE_BLOCKED_BY_BROWSER_POLICY"
+}
